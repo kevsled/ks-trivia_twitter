@@ -5,7 +5,7 @@ let g_index = 0; //global index of the current slide (or previous slide if in th
 let showAnswer = false; //boolean to determine whether to show the name in text (true) or underscores (false)
 let navArray = ['h', 'e']; //corresponds to key presses (home, example, question 1, question 2, ...)
 let tweets = [{}];  //array is populated from a json file through a fetch command
-let tweetFile = './Literary Tweets 2/Trivia - Literary Tweets 2.json'
+let tweetFile = './Literary Tweets 1/Trivia - Literary Tweets 1.json'
 
 //fetches the json file containing all the trivia tweets then adds event listener to load the tweet-box
 fetch(tweetFile)
