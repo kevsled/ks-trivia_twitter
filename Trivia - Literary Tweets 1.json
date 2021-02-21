@@ -1,0 +1,100 @@
+{
+
+    "tweets": [{
+    "tweet-name": "Kevin and Mio",
+    "tweet-avatar": "./Literary Tweets 1/avatars/clinker.jpg",
+    "tweet-handler": "@texarona",
+    "tweet-quote": "ROUND THEME: Literary Tweets\n\nName the literary character who may have tweeted this if Twitter was around back then.",
+    "tweet-hashtags": "#familytrivianight #itsinabook",
+    "tweet-time": "7:00 PM",
+    "tweet-date": "Oct. 2, 2020",
+    "tweet-device": "Microsoft Teams",
+    "tweet-retweets": "0",
+    "tweet-likes": "5"
+},
+{
+    "tweet-name": "Clinker",
+    "tweet-avatar": "./Literary Tweets 1/avatars/clinker.jpg",
+    "tweet-handler": "@look-but-don't-touch",
+    "tweet-quote": "Meow, Hiss, Meow! FEED ME NOW!",
+    "tweet-hashtags": "#hangry #aggressive",
+    "tweet-time": "4:16 PM",
+    "tweet-date": "Jan. 24, 2020",
+    "tweet-device": "meowPhone",
+    "tweet-retweets": "2",
+    "tweet-likes": "9"
+},
+{
+    "tweet-name": "Gollum",
+    "tweet-avatar": "./Literary Tweets 1/avatars/gollum.jpg",
+    "tweet-handler": "@true-lord-of-the-ring",
+    "tweet-quote": "IT'S MINE, HE STOLES IT, MY PRECIOUS!!!",
+    "tweet-hashtags": "#cursebilbobaggins #giveitback #imcomingforyou",
+    "tweet-time": "12:12 PM",
+    "tweet-date": "Jun. 11, TA 2941",
+    "tweet-device": "Dark Web",
+    "tweet-retweets": "0",
+    "tweet-likes": "1"
+},
+{
+    "tweet-name": "Edmond Dant\u00E8s",
+    "tweet-avatar": "./Literary Tweets 1/avatars/dantes.jpg",
+    "tweet-handler": "@count-of-monte-cristo",
+    "tweet-quote": "All human wisdom is contained in these two words, 'Wait and Hope.'",
+    "tweet-hashtags": "#revenge #bestservedcold",
+    "tweet-time": "7:15 AM",
+    "tweet-date": "Jul. 21, 1844",
+    "tweet-device": "Sandwich for Twitter",
+    "tweet-retweets": "786",
+    "tweet-likes": "15k"
+},
+{
+    "tweet-name": "Winnie the Pooh",
+    "tweet-avatar": "./Literary Tweets 1/avatars/pooh.jpg",
+    "tweet-handler": "@heffalumps-and-woozles",
+    "tweet-quote": "Where has all the honey gone? Off to go find some bees with Christopher Robin!",
+    "tweet-hashtags": "#whoturnedoutthelights #ohbother #100acrewood",
+    "tweet-time": "5:05 PM",
+    "tweet-date": "Oct. 14, 1926",
+    "tweet-device": "Tigger Bounce Mobile",
+    "tweet-retweets": "119",
+    "tweet-likes": "2.5k"
+},
+{
+    "tweet-name": "Juliet",
+    "tweet-avatar": "./Literary Tweets 1/avatars/juliet.jpg",
+    "tweet-handler": "@capulet",
+    "tweet-quote": "What’s in a name? That which we call a rose by any other name would smell as sweet.",
+    "tweet-hashtags": "#starcrossed",
+    "tweet-time": "8:40 PM",
+    "tweet-date": "Jul. 10, 1596",
+    "tweet-device": "TweetBalcony",
+    "tweet-retweets": "1",
+    "tweet-likes": "1"
+},
+{
+    "tweet-name": "Dobby",
+    "tweet-avatar": "./Literary Tweets 1/avatars/dobby.jpg",
+    "tweet-handler": "@free-elf",
+    "tweet-quote": "You SHALL NOT harm Harry Potter... except with a rogue bludger or a brick wall...",
+    "tweet-hashtags": "#sockittome #FREEDOM",
+    "tweet-time": "2:57 PM",
+    "tweet-date": "May 24, 1992",
+    "tweet-device": "owlPhone",
+    "tweet-retweets": "12k",
+    "tweet-likes": "190k"
+},
+{
+    "tweet-name": "Peter",
+    "tweet-avatar": "./Literary Tweets 1/avatars/peter.jpg",
+    "tweet-handler": "@simon",
+    "tweet-quote": "My good friend Jesus asked me to be a fisher of men. Got a new name out of it too!",
+    "tweet-hashtags": "#firstpope #oneoftwelve #iamtherock",
+    "tweet-time": "1:16 PM",
+    "tweet-date": "Aug. 11, 33",
+    "tweet-device": "Holy See Network",
+    "tweet-retweets": "11",
+    "tweet-likes": "94k"
+}]
+
+}

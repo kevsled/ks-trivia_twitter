@@ -1,0 +1,173 @@
+
+#twitter-carousel {
+    /* Carousel dimensions - to be adjusted as needed */
+    /* May also need to adjust 'max-width' and font-sizes in @media queries below */
+    font-size: 1.4rem;
+    height: 100vh; /* can use this with vertical padding due to using 'box-sizing: border-box' */
+
+    /* Variable color declarations for easily changing color scheme (i.e. dark mode) */
+    --primary-color: #1da1f2;
+    --secondary-color: #657786;
+    --tertiary-color: white;
+    --quaternary-color: black;
+
+    /* Other css propertiesa*/
+    font-family: arial;
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+    padding: 1rem 0rem;
+
+    /* Centers .wrapper div vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen {
+    @media (min-width: 1100px) {
+        #twitter-carousel {
+            font-size: 1.9rem;
+        }
+    }
+    @media (max-width: 800px) {
+        #twitter-carousel {
+            font-size: 1.0rem;
+        }
+    }
+    @media (max-width: 550px) {
+        #twitter-carousel {
+            font-size: 0.7rem;
+        }
+    }
+    @media (max-width: 390px) { 
+        #twitter-carousel {
+            font-size: 0.5rem; /* not tested */
+        }
+    }
+}
+
+/*  wrapper class is used to solve Flexbug issued #2 on https://github.com/philipwalton/flexbugs/#flexbug-2
+    Without the wrapper div, the two items in the flexbox (#tweet-box, #tweet-box-nav) overlapped when the 
+        viewport height shrunk.
+    The contents (in this case #tweet-box and #tweet-box-nav) will still overflow out the bottom of this div
+        but will be accessible through scrolling. Added 'overflow-y: auto' so the overflow doesn't affect
+        other elements. Seems iffy but it's the best I got so far... */
+.wrapper {
+    box-sizing: border-box;
+    max-height: 100%;
+    width: 30em;
+    margin: 0rem auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/*  Fixes overflow when window becomes too small since padding is used and normal calcs don't include padding */
+#twitter-carousel, #tweet-box, #tweet-box-nav {
+    box-sizing: border-box;
+}
+
+#tweet-box {
+    background-color: var(--tertiary-color);
+    padding: 1em;
+    border-radius: 0.5em;
+    opacity: 0;
+}
+
+#tweet-box-header {
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0em;
+
+    /* Used to position the twitter logo eye (#twitter-eye) */
+    position: relative;
+}
+
+#tweet-avatar {
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+}
+
+#tweet-name-box {
+    flex-grow: 1; /* pushes the twitter logo to the right */
+    margin: 0em 0.7em;
+}
+
+#tweet-name {
+    margin-bottom: 0.15em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#twitter-logo {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+#twitter-eye {
+    position: absolute;
+    top: 0.2em;
+    right: 0.22em;
+    width: 0.05em;
+    height: 0.05em;
+    border: 0.04em solid var(--tertiary-color);
+    border-radius: 50%;
+    background-color: var(--quaternary-color);
+    opacity: 0;
+}
+
+#tweet-hashtags {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 0.5em 0em;
+}
+
+#tweet-box-metadata {
+    font-size: 0.7em;
+    color: var(--secondary-color);
+    margin-bottom: 0.2em;
+}
+
+#tweet-box-likes {
+    font-size: 0.7em;
+}
+
+.secondary-text {
+    color: var(--secondary-color);
+}
+
+.spacer {
+    margin: 0em 0.5em;
+}
+
+
+/* All nav related styling is below */
+#tweet-box-nav {
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav-link, .nav-disabled {
+    text-decoration: none;
+    padding: 0.4em 0.8em;
+    background-color: var(--tertiary-color);
+    border-radius: 0.2em;
+}
+
+.nav-link {
+    color: var(--quaternary-color);
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.nav-disabled {
+    color: var(--secondary-color);
+    cursor: default;
+}

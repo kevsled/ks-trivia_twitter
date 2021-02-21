@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--, (might have to add back later)-->
+
+  <!-- My CSS and JS-->
+  <link rel="stylesheet" type="text/css" href="Trivia - Twitter Quotes.css">
+  <script src="Trivia - Twitter Quotes.js"></script>
+  <!--MIME type issue is with the python basic server not mapping .js files to application/javascript. They are mapped to text/plain instead. Fix when an actual server is used.-->
+
+  <!-- Favicon -->
+  <link rel="icon" href="./trivia.ico" />
+
+  <!-- Font Awesome Kit-->
+  <script src="https://kit.fontawesome.com/dcab55aed4.js" crossorigin="anonymous"></script>
+
+  <title>Trivia - Twitter Quotes</title>
+</head>
+
+<body style="margin: 0;">
+
+<section id="twitter-carousel">
+  <div class="wrapper">
+    <div id="tweet-box">
+      <div id="tweet-box-header">
+        <img id="tweet-avatar" src="./Literary Tweets 1/avatars/clinker.jpg" />
+        <div id="tweet-name-box">
+          <div id="tweet-name" >Name</div>
+          <div id="tweet-handler" class="secondary-text">@handler</div>
+        </div>
+        <i id="twitter-logo" class="fab fa-twitter fa-4x">
+          <div id="twitter-eye"></div>
+        </i>
+      </div>
+      <div id="tweet-box-main">
+        <div id="tweet-quote">
+          Tweet text goes here.
+        </div>
+        <div id="tweet-hashtags">
+          #hashtag1 #hashtag2
+        </div>
+      </div>
+      <div id="tweet-box-metadata">
+        <span id="tweet-time">HH:MM AM</span>
+        <span>|</span>
+        <span id="tweet-date">MMM. DD, YYYY</span>
+        <span>|</span>
+        <span id="tweet-device">Device</span>
+      </div>
+      <div id="tweet-box-likes">
+        <span id="tweet-retweets">0</span>
+        <span class="secondary-text"> Retweets</span>
+        <span class="spacer"></span>
+        <span id="tweet-likes">0</span>
+        <span class="secondary-text"> Likes</span>
+      </div>
+    </div>
+
+    <nav id="tweet-box-nav">
+      <a href="#" class="nav-disabled" id="nav-prev" value='prev'>&lt;</a>
+      <a href="#" class="nav-disabled" id="nav-home" value='h'><u value='h'>H</u>ome</a>
+      <a href="#" class="nav-link" id="nav-example" value='e'><u value='e'>E</u>xample</a>
+      <a href="#" class="nav-link" id="nav-1" value='1'>1</a>
+      <a href="#" class="nav-link" id="nav-2" value='2'>2</a>
+      <a href="#" class="nav-link" id="nav-3" value='3'>3</a>
+      <a href="#" class="nav-link" id="nav-4" value='4'>4</a>
+      <a href="#" class="nav-link" id="nav-5" value='5'>5</a>
+      <a href="#" class="nav-link" id="nav-6" value='6'>6</a>
+      <a href="#" class="nav-link" id="nav-next" value='next'>&gt;</a>
+    </nav>
+  </div>
+</section>
+
+</body>
+
+</html>
